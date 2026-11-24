@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1024" height="1024">
+  <!-- App icon: full square, no rounding (stores round it themselves). Background #F6F4EE -->
+  <defs>
+    <clipPath id="barR"><rect x="13" y="39" width="74" height="22" rx="3" transform="rotate(45 50 50)"/></clipPath>
+  </defs>
+  <rect width="100" height="100" fill="#F6F4EE"/>
+  <rect x="13" y="39" width="74" height="22" rx="3" transform="rotate(45 50 50)" fill="#E8383D"/>
+  <rect x="13" y="39" width="74" height="22" rx="3" transform="rotate(-45 50 50)" fill="#2E6BF0"/>
+  <g clip-path="url(#barR)"><rect x="13" y="39" width="74" height="22" rx="3" transform="rotate(-45 50 50)" fill="#8227B9"/></g>
+</svg>
